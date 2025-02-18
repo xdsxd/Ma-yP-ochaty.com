@@ -17,3 +17,9 @@ button {
 button:hover {
     background-color: #005f73;
 }
+body {
+    background-image: url('images/background.jpg'); /* Zmień ścieżkę do swojego obrazu */
+    background-size: cover; /* Tło będzie rozciągać się na całą stronę */
+    background-position: center center; /* Ustawia obraz w centrum */
+    background-attachment: fixed; /* Tło będzie przyklejone do ekranu (nie będzie przewijać się razem z treścią) */
+}
